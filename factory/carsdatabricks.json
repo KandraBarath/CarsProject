@@ -1,0 +1,16 @@
+{
+	"name": "carsdatabricks",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true,
+			"isExplicitlySet": false
+		}
+	},
+	"location": "centralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "92cf5bf3-dc8f-45e1-b33a-6a47d615be82",
+		"tenantId": "9b5c3eee-d2a0-4bb4-b93f-b367ed664731"
+	}
+}
