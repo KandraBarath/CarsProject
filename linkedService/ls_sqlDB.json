@@ -1,0 +1,17 @@
+{
+	"name": "ls_sqlDB",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "kandracarserver.database.windows.net",
+			"database": "carsales",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "Barath",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEFFNDYzNzhDLUM5MkYtNDQ0RC05MjVELTBCN0NFNkIzNTBDMF80MjA1MjAzNS00YWZlLTQ1YTUtOGY3ZC03NTEwOWM0M2Y3ODgiDQp9"
+		}
+	}
+}
